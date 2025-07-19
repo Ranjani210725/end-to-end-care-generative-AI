@@ -45,14 +45,7 @@ rag_chain=create_retrieval_chain(retriever,question_answer_chain)
 def index():
     return render_template('chat.html')
 
-###@app.route("/get", methods=["POST"])
-#def chat():
- #   msg = request.form["msg"]
-  #  input = msg
-   # print(input)
-    #response = rag_chain.invoke({"input": msg})
-    #print("Response :",response["answer"])
-    #return str(response["answer"])
+
 @app.route("/get", methods=["POST"])
 def chat():
     data = request.get_json()
