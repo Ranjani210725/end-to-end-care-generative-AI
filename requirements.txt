@@ -1,6 +1,7 @@
 sentence-transformers==2.2.2
 langchain
 flask
+python==3.10.13
 pypdf
 python-dotenv
 pinecone[grpc]
