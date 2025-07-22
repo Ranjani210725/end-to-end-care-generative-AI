@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: end-to-end-care-generative-AI
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.app:app
+    pythonVersion: 3.10
