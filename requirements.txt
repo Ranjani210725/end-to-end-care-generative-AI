@@ -1,13 +1,15 @@
-sentence-transformers
-langchain
-flask
-
-pypdf
-python-dotenv
-pinecone[grpc]
-langchain-pinecone
-langchain_community
-langchain_openai
-langchain_experimental
--e .
+Flask==3.1.1
+flask-cors==6.0.1
+Flask-Login==0.6.3
+Flask-Migrate==4.1.0
+Flask-RESTful==0.3.10
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.2
 gunicorn
+openai==1.84.0
+sentence-transformers==2.2.2
+langchain==0.3.25
+langchain-openai==0.3.21
+langchain-community==0.3.25
+huggingface-hub==0.32.4
+python-dotenv==1.1.0
